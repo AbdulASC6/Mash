@@ -37,7 +37,7 @@ function getCar (){
     let idx = Math.floor(Math.random() * cars.length);
     let car = cars[idx];
     return car;
-}
+} 
 
 function nameOfSpouse (){
     let choice = process.argv[5]
